@@ -10,10 +10,11 @@
         android:id="@+id/tvPregunta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="222dp"
+        android:layout_marginTop="184dp"
         android:text=" 2 x 2 = ?"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -52,15 +53,14 @@
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/rana" />
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="244dp"
-        android:layout_height="229dp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="460dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

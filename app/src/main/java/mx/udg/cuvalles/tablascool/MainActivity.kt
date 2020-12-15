@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(i)
         }
         btnPractica.setOnClickListener {
-            val i = Intent(this, EstudiarActivity::class.java)
+            val i = Intent(this, practicaActivity::class.java)
             startActivity(i)
         }
     }
